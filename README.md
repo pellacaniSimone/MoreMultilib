@@ -10,13 +10,6 @@ Simple multi-language library in C, C++, Rust and Python basic and advanced
 - **Rust**
 
 
-## Supported Languages
-
-- **C**
-- **C++**
-- **Python**
-- **Rust**
-
 ## Project Structure
 
 The project is organized into the following directories:
