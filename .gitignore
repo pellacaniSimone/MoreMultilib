@@ -1,0 +1,6 @@
+*.out
+*.o
+__pycache__/
+.ropeproject/
+*.rx
+target/
