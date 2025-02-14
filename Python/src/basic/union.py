@@ -1,9 +1,19 @@
 
 from typing import Union
 
+"""
+  # On Python 3.10+, use the | operator when something could be one of a few types
+  x: list[int | str] = [3, 5, "test", "fun"]  # Python 3.10+
+  # On earlier versions, use Union
+  x: list[Union[int, str]] = [3, 5, "test", "fun"]
+  
+"""
+
+
 class DatoUnion:
   def __init__(self, value) -> None:
     self.value: Union[int, float, str] = value
+
 
   def __str__(self) -> str:
     if isinstance(self.value, int) or isinstance(self.value, float):
